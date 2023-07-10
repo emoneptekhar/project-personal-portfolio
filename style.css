@@ -30,6 +30,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 200px;
     
 }
 nav ul{
@@ -44,4 +45,20 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* Hader CSS */
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+}
+
+.banner .image{
+    width: 500px;
 }
